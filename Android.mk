@@ -24,6 +24,7 @@ LOCAL_C_INCLUDES += $(LOCAL_PATH)/src
 LOCAL_STATIC_LIBRARIES := libv8
 
 LOCAL_SHARED_LIBRARIES := libutils liblog
+LOCAL_CLANG := true
 
 LOCAL_CXX_STL := libc++
 
